@@ -1,5 +1,17 @@
 {
   "dependencies": {
-    "express": "^4.17.3"
+    "bootstrap": "^4.6.1",
+    "express": "^4.17.3",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "save": "^2.4.0"
+  },
+  "scripts": {
+    "webpack": "webpack --watch",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
   }
 }
